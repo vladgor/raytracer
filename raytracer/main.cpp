@@ -16,7 +16,8 @@
 
 using namespace raytracer;
 
-namespace {
+namespace
+{
 
 constexpr int MAX_DEPTH = 50;
 unsigned int nx = 1920;
