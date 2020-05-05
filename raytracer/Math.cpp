@@ -1,5 +1,6 @@
 #include <chrono>
 #include <random>
+#include <corecrt_math_defines.h>
 
 #include "Math.h"
 

@@ -1,7 +1,7 @@
 #include "gtest/gtest.h"
 
-#include "raytracer/Math.h"
-#include "raytracer/Vector3.h"
+#include "../raytracer/Math.h"
+#include "../raytracer/Vector3.h"
 
 
 TEST(CheckMath, checkReflect)

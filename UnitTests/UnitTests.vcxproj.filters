@@ -2,65 +2,68 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="test.cpp" />
-    <ClCompile Include="raytracer\Math.cpp">
+    <ClCompile Include="..\raytracer\Math.cpp">
       <Filter>rt</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
     <Filter Include="rt">
-      <UniqueIdentifier>{aa078ee9-ea28-4770-8133-0c6cba478e81}</UniqueIdentifier>
+      <UniqueIdentifier>{b7c0463d-50bf-4d04-850d-c2fcc99d1962}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="raytracer\Camera.h">
+    <ClInclude Include="..\raytracer\Camera.h">
       <Filter>rt</Filter>
     </ClInclude>
-    <ClInclude Include="raytracer\CheckerTexture.h">
+    <ClInclude Include="..\raytracer\CheckerTexture.h">
       <Filter>rt</Filter>
     </ClInclude>
-    <ClInclude Include="raytracer\ConstantTexture.h">
+    <ClInclude Include="..\raytracer\ConstantTexture.h">
       <Filter>rt</Filter>
     </ClInclude>
-    <ClInclude Include="raytracer\Dielectric.h">
+    <ClInclude Include="..\raytracer\Dielectric.h">
       <Filter>rt</Filter>
     </ClInclude>
-    <ClInclude Include="raytracer\HitRecord.h">
+    <ClInclude Include="..\raytracer\HitRecord.h">
       <Filter>rt</Filter>
     </ClInclude>
-    <ClInclude Include="raytracer\Lambertian.h">
+    <ClInclude Include="..\raytracer\Lambertian.h">
       <Filter>rt</Filter>
     </ClInclude>
-    <ClInclude Include="raytracer\Material.h">
+    <ClInclude Include="..\raytracer\Material.h">
       <Filter>rt</Filter>
     </ClInclude>
-    <ClInclude Include="raytracer\Math.h">
+    <ClInclude Include="..\raytracer\Math.h">
       <Filter>rt</Filter>
     </ClInclude>
-    <ClInclude Include="raytracer\Metal.h">
+    <ClInclude Include="..\raytracer\Metal.h">
       <Filter>rt</Filter>
     </ClInclude>
-    <ClInclude Include="raytracer\MovingSphere.h">
+    <ClInclude Include="..\raytracer\MovingSphere.h">
       <Filter>rt</Filter>
     </ClInclude>
-    <ClInclude Include="raytracer\Ray.h">
+    <ClInclude Include="..\raytracer\Ray.h">
       <Filter>rt</Filter>
     </ClInclude>
-    <ClInclude Include="raytracer\ScatterRecord.h">
+    <ClInclude Include="..\raytracer\ScatterRecord.h">
       <Filter>rt</Filter>
     </ClInclude>
-    <ClInclude Include="raytracer\Sphere.h">
+    <ClInclude Include="..\raytracer\Sphere.h">
       <Filter>rt</Filter>
     </ClInclude>
-    <ClInclude Include="raytracer\Surface.h">
+    <ClInclude Include="..\raytracer\Surface.h">
       <Filter>rt</Filter>
     </ClInclude>
-    <ClInclude Include="raytracer\SurfaceGroup.h">
+    <ClInclude Include="..\raytracer\SurfaceGroup.h">
       <Filter>rt</Filter>
     </ClInclude>
-    <ClInclude Include="raytracer\Texture.h">
+    <ClInclude Include="..\raytracer\Texture.h">
       <Filter>rt</Filter>
     </ClInclude>
-    <ClInclude Include="raytracer\Vector3.h">
+    <ClInclude Include="..\raytracer\Vector3.h">
       <Filter>rt</Filter>
     </ClInclude>
   </ItemGroup>
